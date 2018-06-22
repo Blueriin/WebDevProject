@@ -17,7 +17,15 @@
     <body>      
         <div class="head brown darleston">La Crêperie du Parvis</div>
         <!--<hr>-->
-        <div class="carousel slide" data-ride="carousel" >
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" >
+            <ul class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+            </ul>
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="images/Photos crêperie/magret.jpg" alt="" class="mx-auto d-block"> 
