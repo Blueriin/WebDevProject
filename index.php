@@ -28,22 +28,22 @@
             </ul>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="images/Photos crêperie/magret.jpg" alt="" class="mx-auto d-block"> 
+                    <img src="images/Photos crêperie/magret.jpg" alt="" class="mx-auto d-block homeImg"> 
                 </div>
                 <div class="carousel-item">
-                    <img src="images/Photos crêperie/fermiere.jpg" alt="" class="mx-auto d-block">
+                    <img src="images/Photos crêperie/fermiere.jpg" alt="" class="mx-auto d-block homeImg">
                 </div>
                 <div class="carousel-item">
-                    <img src="images/Photos crêperie/indienne.jpg" alt="" class="mx-auto d-block">
+                    <img src="images/Photos crêperie/indienne.jpg" alt="" class="mx-auto d-block homeImg">
                 </div>
                 <div class="carousel-item">
-                    <img src="images/Photos crêperie/texane.jpg" alt="" class="mx-auto d-block">
+                    <img src="images/Photos crêperie/texane.jpg" alt="" class="mx-auto d-block homeImg">
                 </div>
                 <div class="carousel-item">
-                    <img src="images/Photos crêperie/isigny.jpg" alt="" class="mx-auto d-block">
+                    <img src="images/Photos crêperie/isigny.jpg" alt="" class="mx-auto d-block homeImg">
                 </div>
                 <div class="carousel-item">
-                    <img src="images/Photos crêperie/fleur-de-sel.jpg" alt="" class="mx-auto d-block">
+                    <img src="images/Photos crêperie/fleur-de-sel.jpg" alt="" class="mx-auto d-block homeImg">
                 </div>
             
             <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
