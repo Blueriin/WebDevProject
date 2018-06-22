@@ -1,0 +1,118 @@
+body
+{
+    background-color: #f5ead6;
+}
+
+@font-face 
+{
+    font-family: 'darleston';
+    src: url('darleston-webfont.woff2') format('woff2'),
+         url('darleston-webfont.woff') format('woff');
+    font-style: normal;
+}
+
+.beige
+{
+    color: #f5ead6;     
+}
+
+.brown
+{
+    color: #542a1c;
+}
+
+.darleston
+{
+    font-family: darleston;
+    font-size: 2.1em;
+}
+
+.calibri-bar
+{
+    font-family: calibri;
+    font-size: 0.6em;
+    font-weight: 100;
+}
+
+.calibri
+{
+    font-family: calibri;
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+.head
+{    
+    font-size: 4em;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #f5ead6;
+}
+
+#imgAccueil
+{
+    margin-left: 15%;
+}
+
+.navbar
+{
+    background: #542a1c;
+}
+
+.nav-item
+{
+    margin-right: 5%;
+}
+
+.nav-link
+{
+    color: #f5ead6;  
+}
+
+.nav-link:hover
+{
+    color: #f0e0c1;
+}
+
+.center
+{
+    background-color: white;
+    margin: 0 7% 7% 7%;
+    padding: 2%;
+    border: 1px solid #542a1c;
+}
+
+.presentation
+{
+    width: 65%;
+    border: 1px solid #542a1c;
+    margin: 4% 4% 4% 0;
+    padding: 1%;
+    background-color: rgba(84, 42, 28, 0.3);
+    position: relative;
+    top: 30%;
+    left: 30%;
+}
+
+.contact
+{
+    margin: 1% 0 1% 1%; 
+    border: 1px solid #542a1c;
+    padding: 1%;
+    width: 27%;
+    background-color: rgba(84, 42, 28, 0.3);
+    position: relative;
+    top: 30%;  
+}
+
+.tab
+{
+    margin: 10%;
+}
+
+img
+{
+    width: 80%;
+    height: 500px;
+}
