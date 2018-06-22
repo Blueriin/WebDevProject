@@ -34,7 +34,7 @@
                     <img src="images/Photos crêperie/fermiere.jpg" alt="" class="mx-auto d-block">
                 </div>
                 <div class="carousel-item">
-                    <img src="images/Photos crêperie/forestiere.jpg" alt="" class="mx-auto d-block">
+                    <img src="images/Photos crêperie/indienne.jpg" alt="" class="mx-auto d-block">
                 </div>
                 <div class="carousel-item">
                     <img src="images/Photos crêperie/texane.jpg" alt="" class="mx-auto d-block">
