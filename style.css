@@ -50,11 +50,6 @@ body
     background-color: #f5ead6;
 }
 
-#imgAccueil
-{
-    margin-left: 15%;
-}
-
 .navbar
 {
     background: #542a1c;
@@ -111,8 +106,16 @@ body
     margin: 10%;
 }
 
-img
+.carousel-item
 {
     width: 80%;
     height: 500px;
+}
+
+.card
+{
+    width: 25%;
+    background-color: #f5ead6;
+    border: none;
+    margin: 5%
 }
