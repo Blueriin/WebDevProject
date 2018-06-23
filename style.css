@@ -73,9 +73,11 @@ body
 .center
 {
     background-color: white;
-    margin: 0 7% 7% 7%;
+    margin: 0 10% 0 10%;
     padding: 2%;
     border: 1px solid #542a1c;
+    border-top: none;
+    border-bottom: none;
 }
 
 .presentation
@@ -138,4 +140,11 @@ body
 {
     background-color: #542a1c;
     color: #f5ead6;
+}
+
+.menuImg
+{
+    width: 74%;
+    border: solid 1px #542a1c;
+    margin-bottom: 5%;
 }
