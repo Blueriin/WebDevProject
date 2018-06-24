@@ -10,10 +10,11 @@
 
         <title>WebDev Project</title>
         <?php
-            include ("navbar.html")
+        session_start();
+        include ("navbar.php")
         ?>
     </head>
-    
+
     <body>      
         <div class="head brown darleston">La Crêperie du Parvis</div>
         <!--<hr>-->
@@ -45,23 +46,23 @@
                 <div class="carousel-item">
                     <img src="images/Photos crêperie/fleur-de-sel.jpg" alt="" class="mx-auto d-block homeImg">
                 </div>
-            
+
                 <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
+                    <span class="carousel-control-prev-icon"></span>
                 </a>
                 <a class="carousel-control-next" href="#myCarousel" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
+                    <span class="carousel-control-next-icon"></span>
                 </a>               
             </div>
         </div>
         <div class="center">
             <img src="images/Photos crêperie/equipe1.jpg" alt="equipe" class="equipe">
             <div class="presentation brown calibri">
-            La crêperie du Parvis est un restaurant de galettes et crêpes bretonnes faites maison, qui vous propose également des salades
-            et des sorbets et glaces pour le dessert. Les galettes à la carte sont aussi servies avec une salade verte. N'hésitez pas à 
-            venir avec vos enfants, petits ou grands, un coin enfant a été aménagé pour eux ! 
-            <br>De plus l'endroit est accessible pour les personnes à mobilité réduite, et le stationnement devant la crêperie est gratuit 
-            entre 12h00 et 14h00 et le soir à partir de 19h00.
+                La crêperie du Parvis est un restaurant de galettes et crêpes bretonnes faites maison, qui vous propose également des salades
+                et des sorbets et glaces pour le dessert. Les galettes à la carte sont aussi servies avec une salade verte. N'hésitez pas à 
+                venir avec vos enfants, petits ou grands, un coin enfant a été aménagé pour eux ! 
+                <br>De plus l'endroit est accessible pour les personnes à mobilité réduite, et le stationnement devant la crêperie est gratuit 
+                entre 12h00 et 14h00 et le soir à partir de 19h00.
             </div>
             <hr>
             <div class="brown calibri creation">

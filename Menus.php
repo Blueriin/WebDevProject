@@ -7,7 +7,8 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <title>WebDev Project</title>
         <?php
-        include ("navbar.html")
+        session_start();
+        include ("navbar.php")
         ?>
     </head>
     <body>
@@ -16,12 +17,19 @@
                 <span class="darleston-title">M</span><span class="calibri-title">enu enfant</span>
                 <br>Une galette 2 ingrédients au choix parmi : emmental, jambon, œuf, champignons, tomates.
                 <br>Une crêpe au sucre ou une boule de glace et un sirop.
-                <br><br><span class="darleston-title">F</span><span class="calibri-title">ormule express</span>
+                <br><br><span class="darleston-title">F</span><span class="calibri-title">ormule express 
+                    (le midi du mardi au vendredi)</span>
+
+                <br><b>Non servie les jours feriés</b>
                 <br>Une galette composée avec 3 ingrédients suivants : emmental, œuf, jambon, 
                 tomates fraîches, chèvre, épinards à la crème, champignons, oignons, lardons, fondue de poireaux.     
                 <br>Une crêpe dessert : au sucre ou chocolat ou caramel beurre salé ou confiture ou Nutella.
                 <br>Une boisson : 25cL de cidre ou un verre de vin rouge ou rosé (15cL) ou un verre de soda 25cL.
-
+                <br><br><span class="darleston-title">M</span><span class="calibri-title">enu cinéma</span>
+                <br>Une galette  composée avec 3 ingrédients suivants : emmental, œuf, jambon, 
+                chèvre, tomates fraîches, oignons, champignons, lardons, épinards à la crème, fondue de poireaux. 
+                <br>Une crêpe dessert : au chocolat ou caramel beurre salé. 
+                <br>Une place de cinéma. 
             </div>
         </div>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

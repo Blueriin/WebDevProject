@@ -1,25 +1,6 @@
-function showImage(id)
+function showImage(url)
 {
-    //document.getElementById(id).innerHTML="<img src="+imgName+">";
-
-    document.getElementById(id).style.display = "block";
-    document.getElementById(id).setAttribute("class", "menuImg mx-auto d-block");
-}
-
-function hide(id)
-{
-    document.getElementById(id).style.display = "none";
-}
-
-function scrollDown(id)
-{
-$(document).ready(function(){
-    $('#button').click(function()
-        {    
-            $('html, body').animate({
-                scrollTop: $("#"+id).offset().top},800);
-        });
-    });
+    window.open(url);
 }
 
 function post() 

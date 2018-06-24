@@ -7,7 +7,7 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <title>WebDev Project</title>
         <?php
-        include ("navbar.html")
+        include ("navbar.php")
         ?>
     </head>
     <body>
@@ -21,7 +21,7 @@
             if (array_key_exists($identifiant, $json)) {
                 if ($json->{$identifiant} == $mdp) {
                     $_SESSION["identifiant"] = $identifiant;
-                     header('Location: index.php');
+                    header("Location: index.php");
                 } else {
                     echo "<b>Mot de passe invalide</b><br>";
                 }
@@ -31,15 +31,14 @@
         }
         ?>
 
-        <div >
-            <form name="connection-form">
-                Identifiant: <input type="text" name="identifiant" autofocus required>
-                <br>
-                Mot de passe: <input type="password" name="mdp" required>
-                <br>
-                <button type="button" onclick="post()">Connexion</button>
+        <div>
+            <form name="connection-form" class="calibri brown connection-form">
+                Identifiant: <input type="text" name="identifiant" class="calibri id" autofocus required>
+                <br><br>
+                Mot de passe: <input type="password" name="mdp" class="mdp" required>
+                <br><br>
+                <button type="button" onclick="post()" class="connection-button">Connexion</button>
             </form>
-
         </div>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

@@ -170,13 +170,36 @@ hr
     width: 74%;
     border: solid 1px #542a1c;
     margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 .menus
 {
     width: 90%;
+    margin: 2% 5%;
 }
 
+.connection-form
+{
+    margin-top: 4%;
+    margin-left: 40%;
+}
+
+.id
+{
+    margin-left: 3%;
+}
+
+.mdp
+{
+    margin-left: 1%;
+}
+
+.connection-button
+{
+    margin-left: 33%;
+    cursor: pointer;
+}
 .contact
 {
     margin: 1% 0 1% 1%; 
